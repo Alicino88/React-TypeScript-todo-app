@@ -4,7 +4,7 @@ import Todos from "./Components/Todos";
 import todo from "./Models/todo";
 
 function App() {
-  const todos = [new todo("Learn React"), new todo("rest")];
+  const todos = [new todo("Learn React"), new todo("Have a hot chocolate")];
   return (
     <div>
       <Todos items={todos} />
